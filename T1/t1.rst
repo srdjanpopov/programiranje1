@@ -1,0 +1,181 @@
+
+====
+Uvod 
+====
+
+.. raw:: pdf
+
+    PageBreak
+
+Alfabet
+=======
+
+Alfabet programskog jezika C se sastoji iz malih i velikih slova engleskog alfabeta, cifara dekadnog brojnog sistema i znakova: ( ) + - * / | \ ~ # ^ % & _ ! = ' " : ; < > , . ?
+
+Konstante
+=========
+
+Konstante u C programskom jeziku mogu biti celobrojne konstante (zadate u dekadnom, oktalnom i heksadecimalnom brojnom sistemu), realne ili razlomljene konstante (bez eksponenta ili sa eksponentom) i znakovne konstante(vrednosti znakova koje je moguće učitati ili ispisati na posmatranom sistemu).
+
+Identifikatori
+==============
+
+Identifikatori su namenjeni imenovanju: varijabli, funkcija, makroa, struktura, konstanti i drugih objekata. Imena identifikatora moraju biti u skladu sa pravilima imenovanja u programskom jeziku C, ona obuhvataju: slova iz alfabeta C jezika (mala i velika slova se razlikuju), donju crtu, dekadne cifre. Pri čemu prvi znak identifikatora ne sme biti cifra.
+
+Oblast važenja identifikatora
+=============================
+
+Oblast važenja identifikatora je deo  izvornog koda u kojem je on prepoznat, počinje definicijom i važi do kraja izvornog koda, bloka, naredbe ili do kraja funkcije ako je identifikator lokalan za funkciju. Oblasti važenja identifikatora su:
+
+* oblast važenja fajl (file scope),
+
+* oblast važenja blok (block scope),
+
+* oblast važenja prototip (function prototype scope),
+
+* oblast važenja funkcija (function scope).
+
+Oblast važenja se može proširiti. 
+
+Tipovi podataka
+===============
+
+Tipologija C programskog jezika prepoznaje bazne i izvedene tipove. Bazni tipovi mogu biti osnovni (celobrojni, realni i kompleksni kao i tip void) i nabrojivi tipovi (enumeracija, definiše se službenom rečju enum). Izvedeni tipovi su: pokazivači, nizovi, strukture, unije, polja bita,  funkcije. Za tri osnovne familije tipova znakovnih tipova char, celobrojnih tipova int i realnih tipova double i float, važe modifikatori  dužine (short, long) i predznaka signed, unsigned. Prirodni tipovi su int za ceo broj double za realni. 
+
+Iskaz typedef
+=============
+
+Iskaz ``typedef`` je namenjen za formiranje tipova definisanih od strane programera. Ova deklaracija ne formira novi tip nego uvodi novo ime za već postojeći tip.
+
+Promenljive
+===========
+
+Promenljive ili varijable predstavljaju imenovani deo memorije namenjen za čuvanje vrednosti tokom izvršavanja programa. Promenljive se moraju definisati tačno jedanput, definicijom se zadaju tip i ime (identifikator), a kompajler na osnovu tipa rezerviše memorijsku lokaciju. Opseg važenja promenljive počinje njenom definicijom i može se inicijalizovati samo konstantnim izrazom.
+
+
+Standardni ulaz/izlaz
+=====================
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+Zadatak 1.1
+-----------
+
+Primer poziva:
+--------------
+
+Primer rešenja:
+---------------
+
+.. code-block:: c
+  :include: zadaci/z1.c
+
+Zadatak 1.2
+-----------
+
+Primer poziva:
+--------------
+
+Primer rešenja:
+---------------
+
+.. code-block:: c
+  :include: zadaci/z2.c
+
+Zadatak 1.3
+-----------
+
+Primer poziva:
+--------------
+
+Primer rešenja:
+---------------
+
+.. code-block:: c
+  :include: zadaci/z3.c
+
+Zadatak 1.4
+-----------
+
+Primer poziva:
+--------------
+
+Primer rešenja:
+---------------
+
+.. code-block:: c
+  :include: zadaci/z4.c
+
+Zadatak 1.5
+-----------
+
+Primer poziva:
+--------------
+
+Primer rešenja:
+---------------
+
+.. code-block:: c
+  :include: zadaci/z5.c
+
+Zadatak 1.6
+-----------
+
+Primer poziva:
+--------------
+
+Primer rešenja:
+---------------
+
+.. code-block:: c
+  :include: zadaci/z6.c
+
+Zadatak 1.7
+-----------
+
+Primer poziva:
+--------------
+
+Primer rešenja:
+---------------
+
+.. code-block:: c
+  :include: zadaci/z7.c
+
+Zadatak 1.8
+-----------
+
+Primer poziva:
+--------------
+
+Primer rešenja:
+---------------
+
+.. code-block:: c
+  :include: zadaci/z8.c
+  
+Zadatak 1.9
+-----------
+
+Primer poziva:
+--------------
+
+Primer rešenja:
+---------------
+
+.. code-block:: c
+  :include: zadaci/z9.c
+
+Zadatak 1.10
+------------
+
+Primer poziva:
+--------------
+
+Primer rešenja:
+---------------
+
+.. code-block:: c
+  :include: zadaci/z10.c
+  

@@ -1,0 +1,1 @@
+// Ispis konstanti na standardni izlaz

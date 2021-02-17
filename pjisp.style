@@ -41,13 +41,12 @@
         ["heading1", {
                          "parent" : heading,
                           "fontName" : "Lucida Sans Unicode",
-                          "fontSize" : 14
+                          "fontSize" : 12
                      }
         ],
         ["base", {
                       "fontName" : "Lucida Sans Unicode",
-                      "fontSize" : 10,
-                      "alignment": "justify"
+                      "fontSize" : 10
                   }
         ],
         ["footer" , {
