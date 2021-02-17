@@ -1,0 +1,50 @@
+{
+    "pageSetup" : {
+        "width": "176mm",
+        "height": "250mm",
+        "margin-top": "3mm",
+        "margin-bottom": "5mm",
+        "margin-left": ".5cm",
+        "margin-right": "1cm",
+        "margin-gutter": "0cm",
+        "spacing-header": "5mm",
+        "spacing-footer": "0mm",
+        "firstTemplate": "coverPage"
+    },
+    "pageTemplates" : {
+      "coverPage": {
+          "frames": [
+              ["0%", "-40%", "100%", "100%"]
+          ],
+          "showHeader" : false,
+          "showFooter" : false,
+          "alignment": "TA_CENTER"
+          },
+          "cutePage": {
+              "showHeader" : true,
+              "showFooter" : true
+          }
+    },
+    "styles" : [
+        ["title", {
+                      "fontName" : "Lucida Sans Unicode",
+                      "fontSize" : 32
+                  }
+        ],
+        ["heading1", {
+                         "parent" : heading,
+                          "fontName" : "Lucida Sans Unicode"
+                     }
+        ],
+        ["base", {
+                      "fontName" : "Lucida Sans Unicode",
+                      "fontSize" : 12
+                  }
+        ],
+        ["footer" , {
+                        "parent": "base",
+                        "alignment": "TA_CENTER"
+                    }
+        ]
+    ]
+}
